@@ -1,0 +1,303 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f5f7fa;
+}
+
+
+.navbar {
+   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background-color: white;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    position: fixed;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    z-index : 20;
+    gap: 3px;
+
+}
+.logo{
+  
+    font-family:Arial;
+    font-size: 22px;
+    font-weight: 600;
+    display: flex;
+    color: rgb(5, 5, 132);
+
+}
+
+.logo span {
+    color: red;
+    display: flex;
+  
+}
+.logo .upi{
+    color: rgb(121, 120, 120);
+}
+
+nav ul {
+    font-family: Roboto, sans-serif,Arial;
+    font-weight: 600;
+    list-style: none;
+    display: flex;
+    padding: 5px;
+
+   
+}
+
+nav ul li {
+    font-family: Roboto, sans-serif,Arial;
+    font-weight: 600;
+    margin: 5px 15px;
+    font-size: 14px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: rgb(56, 56, 56);
+    
+}
+
+.auth {
+    font-family: Roboto,Arial;
+    font-weight: 600;
+    display: flex;
+    gap: 25px;
+    
+    margin-left: 0px;
+}
+
+.download, .signin {
+    padding: 4px 10px;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+    border-radius: 4px;
+    
+}
+
+.download {
+    background-color: transparent;
+    color: rgb(31, 87, 208);
+}
+
+.signin {
+    padding: 6px 10px 6px 4px;
+    background-color: rgb(8, 8, 135);
+    color: white;
+    border-radius: 27px;
+    margin-left: -20px;
+}
+.profile{
+    display: inline-block;
+    background-color: rgb(129, 217, 243);
+    padding: 8px;
+    border-radius: 20px;
+    margin-right: 5px;
+}
+
+.banner-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 45vh;
+    background-color: #d9e7fc;
+    margin-top:80px;
+    z-index: 2;
+}
+.banner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #08298d;
+    padding: 0px 50px;
+    width: 65%;
+    height: 40vh;
+    margin: 30px auto;
+    border-radius: 10px;
+    position: relative;
+    z-index: 1;
+   
+}
+
+.banner-image {
+    width: 45%;
+    height: 100%;
+    display: flex;
+    border-radius: 0px; 
+    margin-right: -50px;
+}
+
+.banner-image img {
+    width: 100%; 
+    height: 100%; 
+    object-fit: cover;
+    border-radius: 10px;
+    
+}
+
+.banner-text {
+    width: 60vh;
+    color: rgb(253, 232, 35);
+    
+}
+.banner-text h2 {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.banner-text p {
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: white;
+    text-align: center;
+}
+
+.promo {
+    background-color: yellow;
+    color: black;
+    font-weight: bold;
+    padding: 10px 25px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 16px;
+    
+    margin-left: 70px;
+}
+
+
+.banner-section .left-arrow {
+ 
+    background-color: rgb(77, 190, 255);
+    position: absolute;
+    left:30vh;
+    padding: 8px;
+    border-radius: 40px;
+    z-index: 3;
+}
+.banner-section .right-arrow{
+    background-color: rgb(77, 190, 255);
+    position: absolute;
+    right: 30vh;
+    padding: 8px;
+    border-radius: 40px;
+
+    z-index: 3;
+}
+.left-arrow i,
+.right-arrow i{
+    font-size: 12px;
+    color: white;
+}
+
+
+.recharge-bill-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 0px;
+    padding: 15px;
+    width: 90%;
+    margin: auto;
+
+}
+
+
+.box {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    width: 49%;
+  
+    text-align: center;
+   
+}
+.box h3{
+    font-family: Roboto,Arial;
+    font-size: 16px;
+    font-weight: medium;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: left;
+}
+
+.items-container {
+    display: flex;
+    justify-content: space-between;
+    gap:0px;
+    margin-top: 15px;
+    
+}
+
+.item {
+    background-color: transparent;
+    padding: 10px;
+    border-radius: 8px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 20%; 
+    text-align: center;
+
+}
+
+.item:hover {
+    background-color: #ddd;
+}
+/*
+.items i{
+    font-size: 20px;
+   
+}
+*/
+
+.recharge-bill-container .offer-recharge {
+    background-color: rgb(93, 167, 228);
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    margin-top: 15px;
+    width: 100%;
+    border-radius: 6px;
+    font-size: 14px;
+    font-weight: medium;
+    
+}
+
+.recharge-bill-container .offer-bill{
+    background-color: rgb(50, 92, 176);
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    margin-top: 15px;
+    width: 100%;
+    border-radius: 6px;
+    font-size: 14px;
+    font-weight: medium;
+    
+}
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #ddd;
+    margin-top: 30px;
+    font-size: 14px;
+}
+
+
+

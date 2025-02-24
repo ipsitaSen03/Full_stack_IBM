@@ -1,0 +1,146 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f5f1f1;
+    border: 2px solid black;
+}
+.container {
+    display: flex;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    width: 950px;
+    position: relative;
+    height: 65%
+ 
+}
+.left-section {
+    flex: 1;
+    padding: 20px 40px 20px 20px;
+    
+}
+.logo {
+    width: 170px;
+    height: auto;
+    position: relative;
+    left: -18px;
+}
+.left-section h1 {
+    position: relative;
+    top: -20px;
+    font-size: 24px;
+    color: #1e1d1d;
+}
+.left-section p {
+    position: relative;
+    top: -20px;
+    font-size: 15px;
+    color: #2e2e2e;
+    font-weight: medium;
+}
+.download-buttons img {
+    width: 220px;
+    margin-right: 10px;
+    position: relative;
+    top: -30px;
+}
+.right-section {
+    flex: 1;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+  
+}
+.payment-box {
+    background: #f9fcfc;
+    box-shadow: 2px 2px 8px rgba(0,0,0,0.2);;
+    padding: 15px;
+    border-radius: 10px;
+    position: relative;
+    top: 40px;
+    
+    display: inline-block;
+    width: 160px;
+    height: 50%;
+    padding-bottom: 22px;
+}
+.pay{
+    position: relative;
+    width: 90%;
+    top:-10px;
+    border-radius: 5px;
+    background-color: rgb(156, 209, 232);
+    padding: 8px 8px 15px 8px;
+}
+.pay h2 {
+    
+    font-size: 18px;
+    color: #000000;
+    position: relative;
+    top: 10px;
+}
+.pay p {
+    font-size: 22px;
+    color: #393939;
+    padding-top: 5px;
+    
+}
+.payment-box p {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 13px;
+    color: #232323;
+}
+.payment-box .pay-info {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 11px;
+    color: #5d5b5b;
+}
+.payment-box a {
+    font-size: 11px;
+    color: #171616;
+   
+}
+.avatars {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    z-index: 4;
+}
+.avatars img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    position: absolute;
+    
+}
+.avatars img:nth-child(1) { top: -80px; left: 50%; transform: translateX(-50%);;}/*top*/
+.avatars img:nth-child(2) { top: 180px; left: 120%; transform: translateX(-50%); }/*bottom-right*/
+.avatars img:nth-child(3) { top: -75px; left: 120%; transform: translateX(-50%); }/*right1 */
+.avatars img:nth-child(4) { top: 55px; left: 120%; transform: translateX(-50%); } /*right2 */
+.avatars img:nth-child(5) { top: 180px; left: -20%; transform: translateX(-50%); } /*left2 */
+.avatars img:nth-child(6) { top: 50px; left: -20%; transform: translateX(-50%); } /*left1 */
+.avatars img:nth-child(7) { top: 180px; left: 50%; transform: translateX(-50%); }/*bottom-left*/
+.avatars img:nth-child(8) { top: -75px; left: -20%; transform: translateX(-50%); } /*left new*/
+
+.avatars img {
+    width: 80px;
+    height: 80px; 
+    border-radius: 50%;
+    position: absolute;
+    content: url('https://tse4.mm.bing.net/th?id=OIP.JmMkZ_mIPAUTCCvuPfshBQHaHa&pid=Api&P=0&h=180');
+}
