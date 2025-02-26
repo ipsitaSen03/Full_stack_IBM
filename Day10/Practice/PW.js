@@ -36,5 +36,5 @@ let SVU = {
 }
 console.log(SVU.Grp_B.P_info[1].name);//Sneha
 
-console.log(SVU.Grp_A.Subjects[2]);//
+console.log(SVU.Grp_A.Subjects[2]);//RM
 
